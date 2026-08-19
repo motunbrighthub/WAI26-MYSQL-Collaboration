@@ -1,5 +1,6 @@
 ## SQL Project Instructions
-1. Work in your assigned Group branch (group-1 to group-5).
+1. Create a branch and name it after your Group.
+1. Work in your Group branch (group-1 to group-5).
 2. Save your queries in your group's queries.sql file.
 3. Add clear comments to explain complex queries.
 4. Commit your work regularly with meaningful commit messages.
