@@ -1,0 +1,8 @@
+-- 	12. A healthcare organization wants to classify countries according to life expectancy:
+-- 	•	75 and above → Excellent 
+-- 	•	65–74 → Good 
+-- 	•	50–64 → Average 
+-- 	•	Below 50 → Poor 
+-- 	Return the country, life expectancy, and health category.
+
+USE world;
