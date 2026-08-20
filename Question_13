@@ -1,0 +1,16 @@
+use world;
+-- 13. An investment company wants to classify countries based on GNP:
+-- 	500,000 and above → High Income 	100,000–499,999 → Middle Income 
+-- 	Below 100,000 → Low Income 
+-- Then determine how many countries fall into each category.
+
+        
+        SELECT
+    Name AS Country,
+    GNP,
+    CASE
+        WHEN GNP >= 500000 THEN 'HIGH INCOME'
+        WHEN GNP BETWEEN 100000 AND 499999 THEN 'MIDDLE INCOME'
+        WHEN GNP < 100000 THEN 'LOW INCOME'
+    END AS Income_Category
+FROM country;
