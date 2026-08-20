@@ -66,6 +66,6 @@ For each continent, calculate:
 •	Average GNP 
 •	Number of countries classified as High Income 
 •	Number of countries classified as Low Income 
-Only return continents whose total population is greater than the average total population of all continents.
+Only return continents whose total population is greater than the average total population of all continent.
 
 
